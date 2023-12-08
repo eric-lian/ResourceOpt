@@ -1,0 +1,432 @@
+{
+  "5jpt3i7x9v0pxyapqnvtgg\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/values-pt-rBR/values-pt-rBR.xml",
+      "length": 2944
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/values-pt/values-pt.xml",
+      "length": 2944
+    }
+  ],
+  "wdoeqa9y1zobclaskx4xta\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/bd8f3393036e3bdfe24420a236f6191d/transformed/lifecycle-viewmodel-savedstate-2.5.1/res/values/values.xml",
+      "length": 63
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/b4cfd9ef5155478d32f281fd7a2bec1d/transformed/emoji2-views-helper-1.2.0/res/values/values.xml",
+      "length": 63
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/094973a14efb140d42272d70d7bd3947/transformed/emoji2-1.2.0/res/values/values.xml",
+      "length": 63
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/aa86b862adfd1a54aba1ed6bba2e08c6/transformed/core-ktx-1.12.0-rc01/res/values/values.xml",
+      "length": 63
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/31431506c1f49f7c8a44d171e45e9da9/transformed/annotation-experimental-1.3.0/res/values/values.xml",
+      "length": 63
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/747501634ac108b144436ddf476db797/transformed/lifecycle-process-2.4.1/res/values/values.xml",
+      "length": 63
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/a45955505483e56adaac5ee123751ccb/transformed/lifecycle-livedata-core-2.5.1/res/values/values.xml",
+      "length": 63
+    }
+  ],
+  "i8scb7h/azt6gmfh/vkzia\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/1b1bc0d13f54851a271811266dcb72de/transformed/testAar-release/res/drawable-xxxhdpi-v4/horse_test_aar.webp",
+      "length": 19238
+    },
+    {
+      "path": "/Users/lianjw/AndroidStudioProjects/ResourceMonitor/testlibrary/build/intermediates/packaged_res/release/drawable-xxxhdpi-v4/horse_test_library.webp",
+      "length": 19238
+    }
+  ],
+  "wbm9nal5imzd7yoajlnavg\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/values-b+es+419/values-b+es+419.xml",
+      "length": 5358
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/values-es-rUS/values-es-rUS.xml",
+      "length": 5358
+    }
+  ],
+  "5rl1bdqhg1yqdqfdrvihgq\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xhdpi-v4/ic_call_answer.png",
+      "length": 740
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xhdpi-v4/ic_call_answer_low.png",
+      "length": 740
+    }
+  ],
+  "sxox4ofxzm8ss0kzeq1vew\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/interpolator/m3_sys_motion_easing_standard_decelerate.xml",
+      "length": 670
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/interpolator/m3_sys_motion_easing_emphasized_decelerate.xml",
+      "length": 670
+    }
+  ],
+  "ud+axiu5siklsy2lxlpqqg\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/values-en-rIN/values-en-rIN.xml",
+      "length": 883
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/values-en-rGB/values-en-rGB.xml",
+      "length": 883
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/values-en-rAU/values-en-rAU.xml",
+      "length": 883
+    }
+  ],
+  "uqftayjevss7sb1uvbytew\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxhdpi-v4/ic_call_decline_low.png",
+      "length": 793
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxhdpi-v4/ic_call_decline.png",
+      "length": 793
+    }
+  ],
+  "ma9dhjlxv51xqsfiqctb0q\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/color-v23/abc_tint_edittext.xml",
+      "length": 1047
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/color-v23/abc_tint_spinner.xml",
+      "length": 1047
+    }
+  ],
+  "bhukoe+jhe9uurap4sjydg\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-mdpi-v4/ic_call_decline_low.png",
+      "length": 303
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-mdpi-v4/ic_call_decline.png",
+      "length": 303
+    }
+  ],
+  "bz9dfkofqyd5lziaiban+q\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/color/m3_button_background_color_selector.xml",
+      "length": 940
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/color/m3_fab_efab_background_color_selector.xml",
+      "length": 940
+    }
+  ],
+  "f8agciahnlv86vrokzt0aa\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/AndroidStudioProjects/ResourceMonitor/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "length": 343
+    },
+    {
+      "path": "/Users/lianjw/AndroidStudioProjects/ResourceMonitor/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "length": 343
+    }
+  ],
+  "cp2hdwddjvgtijkhhxcdog\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+      "length": 76
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+      "length": 76
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+      "length": 76
+    }
+  ],
+  "qfxdgilm+x4dbmho0zuyfw\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xhdpi-v4/ic_call_decline_low.png",
+      "length": 545
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xhdpi-v4/ic_call_decline.png",
+      "length": 545
+    }
+  ],
+  "p38ypd4mzroostncpxryig\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-hdpi-v4/ic_call_answer.png",
+      "length": 583
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-hdpi-v4/ic_call_answer_low.png",
+      "length": 583
+    }
+  ],
+  "xwhmnaiawrtyz7eudnpalg\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-mdpi-v4/ic_call_answer_video_low.png",
+      "length": 206
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-mdpi-v4/ic_call_answer_video.png",
+      "length": 206
+    }
+  ],
+  "hy2gpqfwu5phdjplbueyrg\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+      "length": 830
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+      "length": 830
+    }
+  ],
+  "xjdarw/ijtvfcljh397znw\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/interpolator/m3_sys_motion_easing_standard.xml",
+      "length": 680
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/interpolator/m3_sys_motion_easing_emphasized.xml",
+      "length": 680
+    }
+  ],
+  "sm3sgszeufawhrhy1ltpyq\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxhdpi-v4/ic_call_answer.png",
+      "length": 1150
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxhdpi-v4/ic_call_answer_low.png",
+      "length": 1150
+    }
+  ],
+  "6ropesdpeannpz4gzndccw\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/color/m3_button_foreground_color_selector.xml",
+      "length": 931
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/color/m3_fab_efab_foreground_color_selector.xml",
+      "length": 931
+    }
+  ],
+  "ctqnnwd51ysobetfwpzl2a\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-hdpi-v4/ic_call_decline_low.png",
+      "length": 421
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-hdpi-v4/ic_call_decline.png",
+      "length": 421
+    }
+  ],
+  "bs4vwlksldpsrqui0toeww\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+      "length": 817
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+      "length": 817
+    }
+  ],
+  "bvxomse0l97w1lqbihfb5g\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-mdpi-v4/ic_call_answer.png",
+      "length": 389
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-mdpi-v4/ic_call_answer_low.png",
+      "length": 389
+    }
+  ],
+  "l67zag9ye6b4e/xwwbfu/g\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/interpolator/m3_sys_motion_easing_emphasized_accelerate.xml",
+      "length": 670
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/interpolator/m3_sys_motion_easing_standard_accelerate.xml",
+      "length": 670
+    }
+  ],
+  "bm+bwiffkzgdfejabkzi9w\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xhdpi-v4/ic_call_answer_video_low.png",
+      "length": 329
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xhdpi-v4/ic_call_answer_video.png",
+      "length": 329
+    }
+  ],
+  "kea0kkxvashzdgu51wpimw\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/drawable/abc_ratingbar_small_material.xml",
+      "length": 776
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/drawable/abc_ratingbar_material.xml",
+      "length": 776
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/drawable/abc_ratingbar_indicator_material.xml",
+      "length": 776
+    }
+  ],
+  "fgit8jtiig7+r3jcfurphg\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+      "length": 823
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+      "length": 823
+    }
+  ],
+  "mkabhcztxfsluk1kseb/eq\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-hdpi-v4/ic_call_answer_video_low.png",
+      "length": 279
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-hdpi-v4/ic_call_answer_video.png",
+      "length": 279
+    }
+  ],
+  "rw4d3kjhujpe21qdqb+iyq\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxxhdpi-v4/ic_call_answer_video_low.png",
+      "length": 632
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxxhdpi-v4/ic_call_answer_video.png",
+      "length": 632
+    }
+  ],
+  "qz+6pext0ab3uax7um4vpw\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxxhdpi-v4/ic_call_answer.png",
+      "length": 1529
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxxhdpi-v4/ic_call_answer_low.png",
+      "length": 1529
+    }
+  ],
+  "fzno06ln5k8q8qzjitqw/a\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/values-en-rCA/values-en-rCA.xml",
+      "length": 2855
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/values-en-rIN/values-en-rIN.xml",
+      "length": 2855
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/values-en-rGB/values-en-rGB.xml",
+      "length": 2855
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/f637ef35bb0a57e24bdd23851c23bdd9/transformed/appcompat-1.6.1/res/values-en-rAU/values-en-rAU.xml",
+      "length": 2855
+    }
+  ],
+  "rchgzegla1yhnx6pp/wpvw\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-ldpi-v4/ic_call_decline_low.png",
+      "length": 238
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-ldpi-v4/ic_call_decline.png",
+      "length": 238
+    }
+  ],
+  "clpbvxqvpmcjtbwmwy1f5w\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/color/mtrl_navigation_item_text_color.xml",
+      "length": 945
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/color/mtrl_navigation_item_icon_tint.xml",
+      "length": 945
+    }
+  ],
+  "9sy+5jxapdyj6h0agpmvog\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-ldpi-v4/ic_call_answer.png",
+      "length": 313
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-ldpi-v4/ic_call_answer_low.png",
+      "length": 313
+    }
+  ],
+  "/0dqhwr3zz+ad7gpt2ke4g\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxxhdpi-v4/ic_call_decline_low.png",
+      "length": 1054
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxxhdpi-v4/ic_call_decline.png",
+      "length": 1054
+    }
+  ],
+  "sv6fz6ihvdvx/q9vicswmq\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxhdpi-v4/ic_call_answer_video_low.png",
+      "length": 447
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-xxhdpi-v4/ic_call_answer_video.png",
+      "length": 447
+    }
+  ],
+  "hyfozvpqtbzmt43v2vnmsa\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/values-pt-rBR/values-pt-rBR.xml",
+      "length": 902
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/values-pt/values-pt.xml",
+      "length": 902
+    }
+  ],
+  "p07ptyorhxmc0ypqvaltuw\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/anim/m3_bottom_sheet_slide_in.xml",
+      "length": 1028
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/7a93b08451bd4844341b9936d71b92e5/transformed/material-1.9.0/res/anim-v21/m3_bottom_sheet_slide_in.xml",
+      "length": 1028
+    }
+  ],
+  "jsdyuk1vjlknxzijvvkaoa\u003d\u003d": [
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-ldpi-v4/ic_call_answer_video_low.png",
+      "length": 205
+    },
+    {
+      "path": "/Users/lianjw/.gradle/caches/transforms-3/ee75f4412220a04e66739aa52f20d454/transformed/core-1.12.0-rc01/res/drawable-ldpi-v4/ic_call_answer_video.png",
+      "length": 205
+    }
+  ]
+}

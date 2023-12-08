@@ -1,0 +1,53 @@
+plugins {
+    id 'java-library'
+    id 'org.jetbrains.kotlin.jvm'
+    // 必要
+    id 'java-gradle-plugin'
+    id 'com.gradle.plugin-publish' version '1.1.0'
+}
+
+group = 'com.example.resourcemonitor'
+version = '1.0-test01'
+
+gradlePlugin {
+    plugins {
+        simplePlugin {
+            // 插件id
+            id = 'resourcemonitor'
+            // 插件具体的实现类
+            implementationClass = 'com.example.resourcemonitor.ResourceMonitorPlugin'
+        }
+    }
+}
+
+
+dependencies {
+    compileOnly('com.android.tools.build:gradle:8.1.0')
+    compileOnly('com.android.tools.build:gradle-api:8.1.0')
+    implementation 'com.google.code.gson:gson:2.8.9'
+
+    annotationProcessor 'com.ryanharter.auto.value:auto-value-gson:0.3.1'
+    annotationProcessor 'com.google.auto.value:auto-value:1.3'
+    compileOnly 'com.jakewharton.auto.value:auto-value-annotations:1.3'
+    implementation 'com.google.guava:guava:18.0'
+    implementation 'com.google.code.findbugs:jsr305:3.0.1'
+
+    implementation'javax.annotation:javax.annotation-api:1.3.2'
+
+    annotationProcessor("javax.annotation:javax.annotation-api:1.3.2")
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+publishing {
+    repositories {
+        maven {
+            name = 'Maven'
+            url = '../../Maven'
+        }
+    }
+}

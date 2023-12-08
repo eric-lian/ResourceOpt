@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        // 插件本地仓库地址
+        maven { url "../Maven" }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ResourceMonitorSample"
+include ':app'
+include ':ResourceMonitor'
+
+include ':testlibrary'
+//include ':testAar'
