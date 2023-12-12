@@ -79,3 +79,7 @@ dependencies {
     implementation files('libs/testAar-release.aar')
     implementation project(':testlibrary')
 }
+
+resourceOpt {
+    resNameOptPlaceholder = ""
+}

@@ -7,7 +7,7 @@ plugins {
 }
 
 group = 'com.example.resourcemonitor'
-version = '1.0-test01'
+version = '1.0-test04'
 
 gradlePlugin {
     plugins {
