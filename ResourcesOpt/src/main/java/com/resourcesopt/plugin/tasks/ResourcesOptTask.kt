@@ -1,9 +1,9 @@
-package com.example.resourcemonitor.tasks
+package com.resourcesopt.plugin.tasks
 
-import com.example.resourcemonitor.model.Config
-import com.example.resourcemonitor.util.FileOperation
-import com.example.resourcemonitor.util.Md5Util
-import com.example.resourcemonitor.util.TypedValue
+import com.resourcesopt.plugin.model.Config
+import com.resourcesopt.plugin.util.FileOperation
+import com.resourcesopt.plugin.util.Md5Util
+import com.resourcesopt.plugin.util.TypedValue
 import org.gradle.api.DefaultTask
 import org.gradle.api.file.DirectoryProperty
 import org.gradle.api.provider.Property

@@ -14,9 +14,9 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "ResourceMonitorSample"
+rootProject.name = "ResourceOptSample"
 include ':app'
-include ':ResourceMonitor'
+include ':ResourcesOpt'
 
 include ':testlibrary'
 //include ':testAar'

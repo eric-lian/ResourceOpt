@@ -1,4 +1,4 @@
-package com.example.resourcemonitor.model
+package com.resourcesopt.plugin.model
 
 abstract class Extension(
     var repeatResOptEnable: Boolean = true,

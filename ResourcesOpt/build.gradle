@@ -6,16 +6,16 @@ plugins {
     id 'com.gradle.plugin-publish' version '1.1.0'
 }
 
-group = 'com.example.resourcemonitor'
+group = 'com.resourcesopt.plugin'
 version = '1.0-test04'
 
 gradlePlugin {
     plugins {
         simplePlugin {
             // 插件id
-            id = 'resourcemonitor'
+            id = 'resourcesopt'
             // 插件具体的实现类
-            implementationClass = 'com.example.resourcemonitor.ResourceMonitorPlugin'
+            implementationClass = 'com.resourcesopt.plugin.ResourcesOptPlugin'
         }
     }
 }

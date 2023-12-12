@@ -1,4 +1,4 @@
-package com.example.resourcemonitor.util;
+package com.resourcesopt.plugin.util;
 
 import java.io.File;
 import java.io.IOException;

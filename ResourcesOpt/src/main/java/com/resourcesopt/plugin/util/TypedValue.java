@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.resourcemonitor.util;
+package com.resourcesopt.plugin.util;
 
 import java.util.zip.ZipEntry;
 

@@ -1,13 +1,13 @@
-package com.example.resourcemonitor
+package com.resourcesopt.plugin
 
 import com.android.build.gradle.AppExtension
 import com.android.build.gradle.internal.api.ApkVariantOutputImpl
-import com.example.resourcemonitor.model.Extension
-import com.example.resourcemonitor.tasks.ResourcesOptTask
+import com.resourcesopt.plugin.model.Extension
+import com.resourcesopt.plugin.tasks.ResourcesOptTask
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 
-class ResourceMonitorPlugin : Plugin<Project> {
+class ResourcesOptPlugin : Plugin<Project> {
 
     companion object {
         const val EXTENSION_NAME = "resourceOpt"

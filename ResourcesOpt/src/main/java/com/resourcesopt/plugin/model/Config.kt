@@ -1,4 +1,4 @@
-package com.example.resourcemonitor.model
+package com.resourcesopt.plugin.model
 
 import java.io.Serializable
 
