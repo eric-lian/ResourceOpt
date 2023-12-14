@@ -24,6 +24,8 @@ import java.util.zip.ZipEntry;
 public class TypedValue {
   public static final String UNZIP_DIR = "temp";
 
+  public static final String RES = "res";
+
   public static final String COMMAND_7ZIP = "7za";
   public static final String COMMAND_ZIPALIGIN = "zipalign";
 

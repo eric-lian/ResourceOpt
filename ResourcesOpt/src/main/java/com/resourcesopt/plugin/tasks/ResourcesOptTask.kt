@@ -9,6 +9,7 @@ import org.gradle.api.file.DirectoryProperty
 import org.gradle.api.provider.Property
 import org.gradle.api.tasks.Input
 import org.gradle.api.tasks.InputDirectory
+import org.gradle.api.tasks.Internal
 import org.gradle.api.tasks.TaskAction
 import pink.madis.apk.arsc.ResourceFile
 import pink.madis.apk.arsc.ResourceTableChunk
@@ -27,26 +28,31 @@ abstract class ResourcesOptTask : DefaultTask() {
     @get:InputDirectory
     abstract val resourceFilesInput: DirectoryProperty
 
+    @get:Internal
+    abstract val buildOutputDir: DirectoryProperty
+
+
     @TaskAction
     fun doAction() {
         var delSize = 0L
         val start = System.currentTimeMillis()
+        // 输入目录
         val inputDir = resourceFilesInput.get().asFile
-        val outputDir = File(project.buildDir, "resourcesOpt")
-        if (!outputDir.exists()) {
-            outputDir.mkdirs()
-        }
+        // 缓存输出目录
+        val outputDir = buildOutputDir.get().asFile
+        // 被删除的资源后缓存到该目录下，方便查看那些资源被优化了
+        val outputResDir = outputDir.resolve("res")
+        // 编译后的APK
         val originApk = inputDir.listFiles().find { it.extension == "ap_" }
         if (originApk?.exists() != true) return
         // 解压根目录
-        var unZipDir = File(outputDir, TypedValue.UNZIP_DIR)
+        var unZipDir = outputDir.resolve(TypedValue.UNZIP_DIR)
         // 重打包APK
-        var repackageApk = File(inputDir, "temp-${originApk.name}")
-        // 优化结果
-        var optResultFile = File(outputDir, "${variantName.get()}-opt-result.txt")
+        var repackageApk = inputDir.resolve("temp-${originApk.name}")
+        // 优化日志文件
+        var optResultFile = outputDir.resolve("opt-result.txt")
         val config = config.get()
         try {
-            optResultFile.writeText("")
             // 解压原始APK key = 文件名 value = ZipEntry
             val unZipEntryMap = FileOperation.unZipAPk(
                 originApk.absolutePath, unZipDir.absolutePath
@@ -79,24 +85,6 @@ abstract class ResourcesOptTask : DefaultTask() {
             val resNameOptPlaceholder = config.resNameOptPlaceholder
             resourceFile.chunks.filterIsInstance<ResourceTableChunk>()
                 .forEach { resourceTableChunk ->
-                    if (config.resNameOptEnable) {
-                        // 优化key常量池
-                        resourceTableChunk.packages.forEach {
-                            val keyStringPool = it.keyStringPool
-                            val keyStringCount = keyStringPool.stringCount
-                            for (index in 0 until keyStringCount) {
-                                val key = keyStringPool.getString(index)
-                                // 在白名单内无需修改
-                                val regex = regexes.find { regex -> regex.matches(key) }
-                                if (regex != null) {
-                                    optResultFile.appendText("$key 被白名单 $regex 匹配\n")
-                                    continue
-                                }
-                                keyStringPool.setString(index, resNameOptPlaceholder)
-                            }
-                        }
-                    }
-
                     if (config.repeatResOptEnable) {
                         // 找出res目录下重复的资源
                         val stringPool = resourceTableChunk.stringPool
@@ -128,8 +116,28 @@ abstract class ResourcesOptTask : DefaultTask() {
                                 val stringIndex = stringPool.indexOf(delPath)
                                 stringPool.setString(stringIndex, retainPath)
                                 optResultFile.appendText("---path: $delPath size: ${it.length()}\n")
+                                // 优化文件复制到缓存目录
+                                it.copyTo(outputResDir.resolve("${it.name}"))
                                 delSize += it.length()
                                 it.delete()
+                            }
+                        }
+                    }
+
+                    if (config.resNameOptEnable) {
+                        // 优化key常量池
+                        resourceTableChunk.packages.forEach {
+                            val keyStringPool = it.keyStringPool
+                            val keyStringCount = keyStringPool.stringCount
+                            for (index in 0 until keyStringCount) {
+                                val key = keyStringPool.getString(index)
+                                // 在白名单内无需修改
+                                val regex = regexes.find { regex -> regex.matches(key) }
+                                if (regex != null) {
+                                    optResultFile.appendText("$key 被白名单 $regex 匹配\n")
+                                    continue
+                                }
+                                keyStringPool.setString(index, resNameOptPlaceholder)
                             }
                         }
                     }

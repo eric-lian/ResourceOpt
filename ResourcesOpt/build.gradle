@@ -7,7 +7,7 @@ plugins {
 }
 
 group = 'com.resourcesopt.plugin'
-version = '1.0-test04'
+version = '1.0-test07'
 
 gradlePlugin {
     plugins {
@@ -22,8 +22,8 @@ gradlePlugin {
 
 
 dependencies {
-    compileOnly('com.android.tools.build:gradle:8.1.0')
-    compileOnly('com.android.tools.build:gradle-api:8.1.0')
+    compileOnly('com.android.tools.build:gradle:8.0.2')
+    compileOnly('com.android.tools.build:gradle-api:8.0.2')
     implementation 'com.google.code.gson:gson:2.8.9'
 
     annotationProcessor 'com.ryanharter.auto.value:auto-value-gson:0.3.1'
@@ -50,4 +50,10 @@ publishing {
             url = '../../Maven'
         }
     }
+}
+
+// 源代码一起打包，如不开源，不需要添加一下代码
+task sourcesJar(type: Jar) {
+    from sourceSets.main.allSource
+    archiveClassifier.set('sources')
 }
