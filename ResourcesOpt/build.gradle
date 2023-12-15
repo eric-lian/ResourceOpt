@@ -7,7 +7,7 @@ plugins {
 }
 
 group = 'com.resourcesopt.plugin'
-version = '1.0-test07'
+version = '1.0-test10'
 
 gradlePlugin {
     plugins {

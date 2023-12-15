@@ -22,6 +22,7 @@ class ResourcesOptPlugin : Plugin<Project> {
         val appExtension = project.extensions.getByType(AppExtension::class.java)
         val extension = project.extensions.create(EXTENSION_NAME, Extension::class.java)
         appExtension.buildOutputs.all {
+            // 获取是否开启了混淆
             val packageAndroidArtifact = (it as ApkVariantOutputImpl).packageApplication
             // 注册任务
             val resourcesOptTaskTaskProvider =

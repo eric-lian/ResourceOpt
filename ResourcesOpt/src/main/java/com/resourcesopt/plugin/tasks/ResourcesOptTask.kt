@@ -46,13 +46,20 @@ abstract class ResourcesOptTask : DefaultTask() {
         val originApk = inputDir.listFiles().find { it.extension == "ap_" }
         if (originApk?.exists() != true) return
         // 解压根目录
-        var unZipDir = outputDir.resolve(TypedValue.UNZIP_DIR)
+        var unZipDir = inputDir.resolve(TypedValue.UNZIP_DIR)
         // 重打包APK
         var repackageApk = inputDir.resolve("temp-${originApk.name}")
         // 优化日志文件
         var optResultFile = outputDir.resolve("opt-result.txt")
         val config = config.get()
         try {
+            // 清理资源目录
+            unZipDir.deleteRecursively()
+            repackageApk.delete()
+            // 创建资源目录
+            if (!outputResDir.exists()) {
+                outputResDir.mkdirs()
+            }
             // 解压原始APK key = 文件名 value = ZipEntry
             val unZipEntryMap = FileOperation.unZipAPk(
                 originApk.absolutePath, unZipDir.absolutePath
@@ -158,9 +165,6 @@ abstract class ResourcesOptTask : DefaultTask() {
         } catch (e: Exception) {
             e.printStackTrace()
         } finally {
-            // 清理资源目录
-            unZipDir.deleteRecursively()
-            repackageApk.delete()
             // 耗时
             val costText = "重复资源优化插件耗时: ${System.currentTimeMillis() - start} ms\n"
             val optSizeText = "重复资源优化插件优化总大小: ${delSize / 1024} KB\n"
